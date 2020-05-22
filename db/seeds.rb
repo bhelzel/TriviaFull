@@ -365,3 +365,6 @@ Question.create!(
 )
 
 
+Question.create!(
+    text: 'test'
+)
