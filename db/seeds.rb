@@ -275,3 +275,26 @@ Question.create!(
     difficulty: "Medium",
     game: "History Buffs"
 )
+
+Question.create!(
+    text: "World War I was sparked by the assasination of __________.",
+    answer: "The Archduke of Austria",
+    category: "History",
+    answers_array: [
+        "The Archduke of Austria",
+        "The Crown Prince of Hungary",
+        "The Duke of York",
+        "The Kaiser of Germany"
+    ],
+    difficulty: "Medium",
+    game: "History Buffs"
+)
+
+Question.create!(
+    text: "After winning three championships, he retired to play baseball....",
+    answer: "Michael Jordan",
+    category: "Sports",
+    answers_array: [ "Tim Tebow", "Michael Jordan", "Danny Ainge", "Steve Nash"],
+    difficulty: "Easy",
+    game: "Sports and Athletics"
+)
