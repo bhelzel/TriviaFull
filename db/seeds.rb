@@ -187,3 +187,25 @@ Question.create!(
     difficulty: "Hard",
     game: "History Buffs"
 )
+
+Question.create!(
+    text: "The Angel of Death",
+    answer: "Joseph Mengele",
+    category: "Famous Monikers",
+    answers_array: ["Kurt Blome", "Adolf Eichman", "Joseph Mengele", "Arthur Rudolph"],
+    difficulty: "Hard",
+    game: "History Buffs"
+)
+
+Question.create!(
+    text: "Bladerunner is the film adaptation of _____________.",
+    answer: "Do Androids Dream of Electric Sheep",
+    category: "Film and Television",
+    answers_array: [
+        "The Man in the Highcastle", 
+        "Childhood's End", 
+        "Do Androids Dream of Electric Sheep", 
+        "Stranger in a Strange Land"],
+    difficulty: "Medium",
+    game: "Art and Entertainment"
+)
