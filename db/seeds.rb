@@ -346,4 +346,22 @@ Question.create!(
     game: "Art and Entertainment"
 )
 
+Question.create!(
+    text: "At 1,642 Meters, this is the deepest lake in the world.",
+    answer: "Lake Baikal",
+    category: "Geography",
+    answers_array: ["Lake Malawi", "Qinghai Lake", "Lake Titicaca", "Lake Baikal"],
+    difficulty: "Easy",
+    game: "The Sciences"
+)
+
+Question.create!(
+    text: "________ is home to Angel Falls, the tallest waterfall on Earth.",
+    answer: "Venezuela",
+    category: "Geography",
+    answers_array: ["Brazil", "Venezuela", "India", "Central African Republic"],
+    difficulty: "Easy",
+    game: "The Sciences"
+)
+
 
