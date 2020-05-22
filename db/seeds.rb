@@ -94,3 +94,21 @@ Question.create!(
     difficulty: "Hard",
     game: "Art and Entertainment"
 )
+
+Question.create!(
+    text: "Despite an almost fatal bus accident, which inspired her masterpiece 'The Broken Column', she recovered to become one of the most celebrated portrait artists of all time.",
+    answer: "Frida Kahlo",
+    category: "Art",
+    answers_array: ["Berthe Morisot", "Frida Kahlo", "Georgia O'Keeffe", "Tamara de Lempicka"],
+    difficulty: "Medium",
+    game: "Art and Entertainment"
+)
+
+Question.create!(
+    text: "Ol' Blood and Guts",
+    answer: "George Patton",
+    category: "Famous Monikers",
+    answers_array: ["Omar Bradley", "Dwight Eisenhower", "George Patton", "Chester Nimitz"],
+    difficulty: "Medium",
+    game: "History Buffs"
+)
