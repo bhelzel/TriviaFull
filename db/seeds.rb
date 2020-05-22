@@ -169,3 +169,21 @@ Question.create!(
     difficulty: "Medium",
     game: "Sports and Athletics"
 )
+
+Question.create!(
+    text: "The most decorated Olympian of all time",
+    answer: "Michael Phelps",
+    category: "Sports",
+    answers_array: ["Michael Phelps", "Mark Spitz", "Larissa Latynina", "Carl Lewis"],
+    difficulty: "Easy",
+    game: "Sports and Athletics"
+)
+
+Question.create!(
+    text: "Che",
+    answer: "Ernesto Guevara",
+    category: "Famous Monikers",
+    answers_array: ["Juan Guevara", "Fidel Guevara", "Ernesto Guevara", "Ronaldo Guevara"],
+    difficulty: "Hard",
+    game: "History Buffs"
+)
