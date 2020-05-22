@@ -40,3 +40,21 @@ Question.create!(
     difficulty: "Easy",
     game: "History Buffs"
 )
+
+Question.create!(
+    text: "On June 12 1970, he pitched a no-hitter while under the influence of LSD.",
+    answer: "Doc Ellis",
+    category: "Sports",
+    answers_array: ["Randy Johnson", "Doc Ellis", "Cy Young", "Pedro Martínez"],
+    difficulty: "Hard",
+    game: "Sports and Athletics"
+)
+
+Question.create!(
+    text: "The author of Mastering the Art of French Cooking, she made sure we knew there's no such thing as too much butter.",
+    answer: "Julia Child",
+    category: "Cooking",
+    answers_array: ["Ina Garten", "Fannie Farmer", "Athena Calderone", "Julia Child"],
+    difficulty: "Easy",
+    game: "Languages, Peoples, and Foods"
+)
