@@ -130,3 +130,25 @@ Question.create!(
     difficulty: "Easy",
     game: "The Sciences"
 )
+
+Question.create!(
+    text: "World War Two's Battle of the Bulge was ___________",
+    answer: "A massive German counter-offensive through the Ardennes Forrest",
+    category: "History",
+    answers_array: [
+        "The execution of Operation Market Garden in Holland", 
+        "A North African tank battle between Rommel and Patton", 
+        "A massive German counter-offensive through the Ardennes Forrest", 
+        "The final skirmish between Russian and German troops in Stalingrad"],
+    difficulty: "Medium",
+    game: "History Buffs"
+)
+
+Question.create!(
+    text: "__________ has more National Parks than any other state.",
+    answer: "California",
+    category: "Geography",
+    answers_array: ["Montana", "California", "Alaska", "Oregon"],
+    difficulty: "Medium",
+    game: "The Sciences"
+)
