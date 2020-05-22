@@ -298,3 +298,22 @@ Question.create!(
     difficulty: "Easy",
     game: "Sports and Athletics"
 )
+
+Question.create!(
+    text: "His signature move, the Shamgod, is used by the best dribblers in the NBA.",
+    answer: "God Shamgod",
+    category: "Sports",
+    answers_array: ["Kyrie Irving", "God Shamgod", "Moses Shamgod", "Jamal Crawford"],
+    difficulty: "Hard",
+    game: "Sports and Athletics"
+)
+
+Question.create!(
+    text: "Kimye",
+    answer: "A hobbit and a gay fish",
+    category: "Famous Monikers",
+    answers_array: ["Kim and Kanye", "A hobbit and a gay fish", "J-Lo and A-Rod", "Kim Jung Il"],
+    difficulty: "Medium",
+    game: "Art and Entertainment"
+)
+
