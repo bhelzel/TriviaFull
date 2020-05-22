@@ -317,3 +317,33 @@ Question.create!(
     game: "Art and Entertainment"
 )
 
+
+Question.create!(
+    text: "Both a moving story and profound work of philosophy, this novel follows a man and his son on a motorcycle journey across the northern United States.",
+    answer: "Zen and the Art of Motorcycle Maintenance",
+    category: "Literature",
+    answers_array: [
+        "Zen and the Art of Motorcycle Maintenance",
+        "Black Rebel Motorcycle Club",
+        "The Motorcycle Diaries",
+        "Kino's Journey"
+    ],
+    difficulty: "Medium",
+    game: "Liberal Arts"
+)
+
+Question.create!(
+    text: "This novel was the inspiration for Apocolypse Now.",
+    answer: "Heart of Darkness",
+    category: "Film and Television",
+    answers_array: [
+        "Heart of Darkness",
+        "Things Fall Apart",
+        "The Things They Carried",
+        "Further up the River"
+    ],
+    difficulty: "Medium",
+    game: "Art and Entertainment"
+)
+
+
