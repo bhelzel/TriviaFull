@@ -209,3 +209,25 @@ Question.create!(
     difficulty: "Medium",
     game: "Art and Entertainment"
 )
+
+Question.create!(
+    text: "How did Chubbs Petterson lose his hand?",
+    answer: "An alligator bit it off",
+    category: "Film and Television",
+    answers_array: [
+        "An automibile accident", 
+        "Strange, unkown circumstances",
+        "A meat slicer", 
+        "An alligator bit it off"],
+    difficulty: "Easy",
+    game: "Art and Entertainment"
+)
+
+Question.create!(
+    text: "Douglas MacArthur famously smoked __________.",
+    answer: "a corncob pipe",
+    category: "History",
+    answers_array: ["cigars", "a corncob pipe", "mugwort", "a wood pipe he made himself"],
+    difficulty: "Medium",
+    game: "History Buffs"
+)
