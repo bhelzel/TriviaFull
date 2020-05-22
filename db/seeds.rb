@@ -112,3 +112,21 @@ Question.create!(
     difficulty: "Medium",
     game: "History Buffs"
 )
+
+Question.create!(
+    text: "Considered to be one of the greatest tennis players of all time, she took down Bobby Riggs in the 'Battle of the Sexes'.",
+    answer: "Billie Jean King",
+    category: "Sports",
+    answers_array: ["Margaret Court", "Billie Jean King", "Serena Williams", "Maria Sharapova"],
+    difficulty: "Easy",
+    game: "Sports and Athletics"
+)
+
+Question.create!(
+    text: "This common effect, observable when you put a pencil into a glass of water, for example, is the change in direction of a wave moving from one medium to another, caused by a change in its speed.",
+    answer: "Refraction",
+    category: "Science",
+    answers_array: ["Concavity", "Refraction", "Reflection", "Diffraction"],
+    difficulty: "Easy",
+    game: "The Sciences"
+)
