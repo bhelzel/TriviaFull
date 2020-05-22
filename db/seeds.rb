@@ -249,3 +249,29 @@ Question.create!(
     difficulty: "Easy",
     game: "Sports and Athletics"
 )
+
+Question.create!(
+    text: "The Bad Boys",
+    answer: "Late 80's Detroit Pistons",
+    category: "Famous Monikers",
+    answers_array: [
+        "The '85 Bears", 
+        "Late 80's Detroit Pistons", 
+        "Those involved in 'Malic at the Palace'", 
+        "The Baltimore Ravens"],
+    difficulty: "Easy",
+    game: "Sports and Athletics"
+)
+
+Question.create!(
+    text: "This Empire, which ruled India for roughly 300 years, was a major patron of the arts.",
+    answer: "The Mughal Empire",
+    category: "History",
+    answers_array: [
+        "The Persian Empire", 
+        "The Mongolians", 
+        "The Mughal Empire", 
+        "The Khmer Empire"],
+    difficulty: "Medium",
+    game: "History Buffs"
+)
