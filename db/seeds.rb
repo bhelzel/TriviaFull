@@ -152,3 +152,20 @@ Question.create!(
     difficulty: "Medium",
     game: "The Sciences"
 )
+
+Question.create!(
+    text: "This language has three written alphabets: one logographic, the other two syllabic.",
+    answer: "Japanese",
+    category: "Grammar and Language",
+    answers_array: ["Swahili", "Japanese", "Turkish", "Russian"],
+    difficulty: "Medium"
+)
+
+Question.create!(
+    text: "The Thorpedo",
+    answer: "Ian Thorpe",
+    category: "Famous Monikers",
+    answers_array: ["Jim Thorpe", "Ian Thorpe", "Bob Thorpe", "Bill Thorpe"],
+    difficulty: "Medium",
+    game: "Sports and Athletics"
+)
