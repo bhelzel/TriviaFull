@@ -76,3 +76,21 @@ Question.create!(
     difficulty: "Easy",
     game: "The Sciences"
 )
+
+Question.create!(
+    text: "This Squaw Valley legend was a pioneer of base jumping and ski base jumping. He and his friends were also responsible for GNAR, the greatest game on Earth.",
+    answer: "Shane McConkey",
+    category: "Sports",
+    answers_array: ["Rob Gaffney", "JT Holmes", "Bode Miller", "Shane McConkey"],
+    difficulty: "Medium",
+    game: "Sports and Athletics"
+)
+
+Question.create!(
+    text: "This Chinese director is responsible for the critically acclaimed films 'Still Life' and 'A Touch of Sin'.",
+    answer: "Jia Zhangke",
+    category: "Film and Television",
+    answers_array: ["Jia Zhangke", "Wong Karwai", "Chen Kaige", "Zhou Bing"],
+    difficulty: "Hard",
+    game: "Art and Entertainment"
+)
