@@ -58,3 +58,21 @@ Question.create!(
     difficulty: "Easy",
     game: "Languages, Peoples, and Foods"
 )
+
+Question.create!(
+    text: "Though he only lived to be 31, this famed New York artists' legacy lives on through his foundation, which provides grants to children in need and people affected HIV/AIDS.",
+    answer: "Keith Haring",
+    category: "Art",
+    answers_array: ["Jackson Pollock", "Keith Haring", "Andy Worhol", "Jean-Michel Basquiat"],
+    difficulty: "Medium",
+    game: "Art and Entertainment"
+)
+
+Question.create!(
+    text: "What country is home to the tallest mountain in Africa?",
+    answer: "Tanzania",
+    category: "Geography",
+    answers_array: ["South Africa", "Morroco", "Tanzania", "Zimbabwe"],
+    difficulty: "Easy",
+    game: "The Sciences"
+)
