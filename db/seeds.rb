@@ -231,3 +231,21 @@ Question.create!(
     difficulty: "Medium",
     game: "History Buffs"
 )
+
+Question.create!(
+    text: "A day which will live in infamy.",
+    answer: "December 7th, 1941",
+    category: "History",
+    answers_array: ["June 6th 1944", "April 19th, 1775", "December 7th, 1941", "September 11th, 2001"],
+    difficulty: "Easy",
+    game: "History Buffs"
+)
+
+Question.create!(
+    text: "Tom Brady was drafted in the _____ round.",
+    answer: "6th",
+    category: "Sports",
+    answers_array: ["1st", "2nd", "4th", "6th"],
+    difficulty: "Easy",
+    game: "Sports and Athletics"
+)
