@@ -22,3 +22,21 @@ Question.create!(
     difficulty: "Hard",
     game: "Liberal Arts"
 )
+
+Question.create!(
+    text: "His drink of choice is a vodka martini, shaken, not stirred.",
+    answer: "James Bond",
+    category: "Film and Television",
+    answers_array: ["Austin Powers", "Ian Flemming", "James Bond", "Matt Damon"],
+    difficulty: "Easy",
+    game: "Art and Entertainment"
+)
+
+Question.create!(
+    text: "The Iron Lady",
+    answer: "Margaret Thatcher",
+    category: "Famous Monikers",
+    answers_array: ["Margaret Thatcher", "Angela Merkel", "Aung San Suu Kyi", "Theresa May"],
+    difficulty: "Easy",
+    game: "History Buffs"
+)
