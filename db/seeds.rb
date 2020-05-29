@@ -363,8 +363,3 @@ Question.create!(
     difficulty: "Easy",
     game: "The Sciences"
 )
-
-
-Question.create!(
-    text: 'test'
-)
