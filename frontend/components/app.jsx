@@ -9,7 +9,7 @@ import {
 } from 'react-router-dom';
 
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
-import Splash from './splash_pages/splash';
+import { Splash } from './splash_pages/splash.jsx';
 
 const App = () => (
     <div className="wrapper">

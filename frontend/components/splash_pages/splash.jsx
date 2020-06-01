@@ -10,7 +10,7 @@ export default class Splash extends React.Component {
 
         return(
             <div>
-                <p>Working</p>
+                <h1>Working</h1>
             </div>
         )
     }

@@ -176,7 +176,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _util_route_util__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/route_util */ "./frontend/util/route_util.jsx");
-/* harmony import */ var _splash_pages_splash__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./splash_pages/splash */ "./frontend/components/splash_pages/splash.jsx");
+/* harmony import */ var _splash_pages_splash_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./splash_pages/splash.jsx */ "./frontend/components/splash_pages/splash.jsx");
 
 
 
@@ -189,7 +189,7 @@ var App = function App() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     exact: true,
     path: "/",
-    component: _splash_pages_splash__WEBPACK_IMPORTED_MODULE_4__["default"]
+    component: _splash_pages_splash_jsx__WEBPACK_IMPORTED_MODULE_4__["Splash"]
   })));
 };
 
@@ -277,7 +277,7 @@ var Splash = /*#__PURE__*/function (_React$Component) {
   _createClass(Splash, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Working"));
+      return /*#__PURE__*/React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Working"));
     }
   }]);
 
