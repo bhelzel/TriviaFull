@@ -1,5 +1,5 @@
 const path = require('path');
-const CopyPlugin = require('copy-webpack-plugin');
+// const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     context: __dirname,
@@ -22,14 +22,14 @@ module.exports = {
             }
         ]
     },
-    plugins: [
-        new CopyPlugin([
-            {
-                from: '/Users/hwatsonbenjamin/Projects/TriviaAppFull/public/favicon.ico',
-                to: this.output
-            },
-        ])
-    ],
+    // plugins: [
+    //     new CopyPlugin([
+    //         {
+    //             from: '/Users/hwatsonbenjamin/Projects/TriviaAppFull/public/favicon.ico',
+    //             to: this.output
+    //         },
+    //     ])
+    // ],
     devtool: 'source-map',
     resolve: {
         extensions: [".js", ".jsx", "*"]

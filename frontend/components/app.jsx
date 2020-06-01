@@ -9,11 +9,12 @@ import {
 } from 'react-router-dom';
 
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
+import Splash from './splash_pages/splash';
 
 const App = () => (
     <div className="wrapper">
         <Switch>
-
+            <Route exact path="/" component={Splash} />
         </Switch>
     </div>
 );
